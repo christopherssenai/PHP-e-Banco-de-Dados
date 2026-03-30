@@ -1,0 +1,1 @@
+<!-- Consultas / Regras de negòcios -->
