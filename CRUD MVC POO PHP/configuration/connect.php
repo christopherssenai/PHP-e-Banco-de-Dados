@@ -3,7 +3,7 @@
     // Definindo quatro(4) constantes
 
     define('HOST', 'localhost');
-    define('DATABASENAME', 'crud-mvc-poo-php-gn');
+    define('DATABASENAME', 'crud-mvc-poo-php-cs');
     define('USER', 'root');
     define('PASSWORD', 'root');
 
@@ -20,7 +20,10 @@
             }
             catch (PDOException $e){
                 echo "Error!".$e->getMessage();
+                die();
             }
         }
     }
+
+    $testConnection = new Connect();
 ?>
